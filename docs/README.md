@@ -118,6 +118,7 @@ HPC是一个比较综合的方向，涉及算法、体系结构、编程语言�
 - [Extreme HTTP Performance Tuning: 1.2M API req/s on a 4 vCPU EC2 Instance](https://talawah.io/blog/extreme-http-performance-tuning-one-point-two-million/) 展示了性能调优和热点分析的各种工具的使用。
 - [Intel Developer Zone](https://software.intel.com/content/www/us/en/develop/home.html) 中有 vtune, advisor 等性能分析工具的使用指南，还有 intel 的各种高性能计算库的文档。
 - [CUDA docs](https://docs.nvidia.com/cuda/index.html) 中有 CUDA 的文档和入门教程。
+- [Linux perf](http://www.brendangregg.com/linuxperf.html) 介绍了对 Linux 进行性能分析与调优的各种工具
 
 内容收集主要来自 [高性能计算学习路线](https://www.zhihu.com/question/33576416) 和 [华农队长的备赛指南](https://baijiahao.baidu.com/s?id=1623535574079054530&wfr=spider&for=pc)
 
