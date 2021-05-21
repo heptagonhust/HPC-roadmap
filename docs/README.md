@@ -113,4 +113,6 @@ HPC是一个比较综合的方向，涉及算法、体系结构、编程语言�
 
 内容收集主要来自 [高性能计算学习路线](https://www.zhihu.com/question/33576416) 和 [华农队长的备赛指南](https://baijiahao.baidu.com/s?id=1623535574079054530&wfr=spider&for=pc)
 
-部分内容如有侵权，请联系bohanzhu81@gmail.com, 我们会尽快移除
+部分内容如有侵权，请在 https://github.com/heptagonhust/HPC-roadmap 中开一个 issue, 我们会尽快移除
+
+如果你有更好的想法，欢迎来开一个 Pull Request 来帮助改进这个入门文档。
