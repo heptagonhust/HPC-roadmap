@@ -4,8 +4,13 @@
 
 HPC是一个比较综合的方向，涉及算法、体系结构、编程语言、操作系统、计算机网络等，还涉及专业的学科知识譬如生物信息学等，这也正是它的趣味性所在。High level 地想一想，要以最高效的方式来对一个给定问题求解，我们必然需要有高效的算法设计（上层）、高效的编程模型和代码生成（中层）、以及高效的计算机体系结构来执行机器码（下层）。要实现极致的效率，三者必须协作。
 
-推荐入门书籍：
+### 学习资源
 
+- [Intel Developer Zone](https://software.intel.com/content/www/us/en/develop/home.html) 中有 vtune, advisor 等性能分析工具的使用指南，还有 intel 的各种高性能计算库的文档。
+- [CUDA docs](https://docs.nvidia.com/cuda/index.html) 中有 CUDA 的文档和入门教程。
+- [MPI tutorial](https://mpitutorial.com/tutorials/) MPI的入门资料
+- [intel Intrinsics Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide/#cats=Arithmetic&expand=3904,3913,4011,4014,4602,4011&techs=MMX,SSE,SSE2,SSE3,SSSE3,SSE4_1,SSE4_2,AVX,AVX2,FMA,AVX_512,AMX,SVML,Other) intel的SIMD文档
+- [Linux perf](http://www.brendangregg.com/linuxperf.html) 介绍了对 Linux 进行性能分析与调优的各种工具
 - OpenMP 和 MPI ：《并行程序设计导论》
 - CUDA : 《CUDA 并行程序设计》 《GPU 编程指南》 第5、6、9章
 - 运维 ： 《Linux命令行与shell脚本编程大全》 (“Linux Command Line and Shell Scripting Bible”)
@@ -113,14 +118,9 @@ HPC是一个比较综合的方向，涉及算法、体系结构、编程语言�
 - 如何实现lock-free数据结构和算法？
 - 如何设计cache-oblivious algorithms？
 
-## 参考资料与拓展阅读
+## 拓展阅读
 
 - [Extreme HTTP Performance Tuning: 1.2M API req/s on a 4 vCPU EC2 Instance](https://talawah.io/blog/extreme-http-performance-tuning-one-point-two-million/) 展示了性能调优和热点分析的各种工具的使用。
-- [Intel Developer Zone](https://software.intel.com/content/www/us/en/develop/home.html) 中有 vtune, advisor 等性能分析工具的使用指南，还有 intel 的各种高性能计算库的文档。
-- [CUDA docs](https://docs.nvidia.com/cuda/index.html) 中有 CUDA 的文档和入门教程。
-- [MPI tutorial](https://mpitutorial.com/tutorials/) MPI的入门资料
-- [intel Intrinsics Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide/#cats=Arithmetic&expand=3904,3913,4011,4014,4602,4011&techs=MMX,SSE,SSE2,SSE3,SSSE3,SSE4_1,SSE4_2,AVX,AVX2,FMA,AVX_512,AMX,SVML,Other) intel的SIMD文档
-- [Linux perf](http://www.brendangregg.com/linuxperf.html) 介绍了对 Linux 进行性能分析与调优的各种工具
 
 内容收集主要来自 [高性能计算学习路线](https://www.zhihu.com/question/33576416) 和 [华农队长的备赛指南](https://baijiahao.baidu.com/s?id=1623535574079054530&wfr=spider&for=pc)
 
