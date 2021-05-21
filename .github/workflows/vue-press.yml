@@ -17,4 +17,4 @@ jobs:
         TARGET_REPO: heptagonhust/HPC-roadmap
         TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: yarn && yarn docs:build
-        BUILD_DIR: blog/.vuepress/dist/
+        BUILD_DIR: docs/.vuepress/dist/
