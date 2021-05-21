@@ -1,3 +1,5 @@
+# 高性能计算学习路线
+
 ## 高性能计算 = 高性能的算法 + 高性能的软件系统 + 高性能的硬件
 
 HPC是一个比较综合的方向，涉及算法、体系结构、编程语言、操作系统、计算机网络等，还涉及专业的学科知识譬如生物信息学等，这也正是它的趣味性所在。High level 地想一想，要以最高效的方式来对一个给定问题求解，我们必然需要有高效的算法设计（上层）、高效的编程模型和代码生成（中层）、以及高效的计算机体系结构来执行机器码（下层）。要实现极致的效率，三者必须协作。
@@ -110,6 +112,10 @@ HPC是一个比较综合的方向，涉及算法、体系结构、编程语言�
 - 如何把一个算法在GPU上高性能地实现？
 - 如何实现lock-free数据结构和算法？
 - 如何设计cache-oblivious algorithms？
+
+## 参考资料与拓展阅读
+
+- [Extreme HTTP Performance Tuning: 1.2M API req/s on a 4 vCPU EC2 Instance](https://talawah.io/blog/extreme-http-performance-tuning-one-point-two-million/) 展示了性能调优和热点分析的各种工具的使用。
 
 内容收集主要来自 [高性能计算学习路线](https://www.zhihu.com/question/33576416) 和 [华农队长的备赛指南](https://baijiahao.baidu.com/s?id=1623535574079054530&wfr=spider&for=pc)
 
