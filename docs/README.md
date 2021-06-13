@@ -15,6 +15,7 @@ HPC是一个比较综合的方向，涉及算法、体系结构、编程语言�
 - CUDA : 《CUDA 并行程序设计》 《GPU 编程指南》 第5、6、9章
 - 运维 ： 《Linux命令行与shell脚本编程大全》 (“Linux Command Line and Shell Scripting Bible”)
 - 编译、链接 ： 《程序员的自我修养:装载、链接与库》 《深入理解计算机系统》第7章
+- 内存与 Cache：[What Every Programmer Should Know About Memory(pdf)](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
 
 利用**提问**的方式来梳理下一些知识，大部分都是开放式问题， 启发你自己去查找资料、思考。
 
