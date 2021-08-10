@@ -15,7 +15,15 @@
 int sum_array(int *arr, int len) {
   int sum = 0;
   for(int i = 0; i < len; ++i) {
-    sum += i;
+    sum += arr[i];
+  }
+  return sum;
+}
+
+int dot_product(int *a, int *b, int len) {
+  int sum = 0;
+  for(int i = 0; i < len; ++i) {
+    sum += a[i] * b[i];
   }
   return sum;
 }
@@ -31,6 +39,20 @@ int sum_array(int *arr, int len) {
 - MPI 编程
 
 习题：优化矩阵乘法
+
+``` cpp
+void matrix_mul(int *a, int *b, int *c, int len) {
+  for(int i = 0; i < len; ++i) {
+    for(int j = 0; j < len; ++j) {
+      int sum = 0;
+      for(int k = 0; k < len; ++k) {
+        sum += a[i * len + k] * b[k * len + j];
+      }
+      c[i * len + j] = sum;
+    }
+  }
+}
+```
 
 ### Lunatic：大的要来了
 
