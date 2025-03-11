@@ -6,7 +6,7 @@
   "author": "mgt <mgt@oi-wiki.org>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.9"
+    "vuepress": "^1.9.10"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
