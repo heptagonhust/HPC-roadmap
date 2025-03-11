@@ -186,7 +186,7 @@ HPC是一个比较综合的方向，涉及算法、体系结构、编程语言�
 
 - [Extreme HTTP Performance Tuning: 1.2M API req/s on a 4 vCPU EC2 Instance](https://talawah.io/blog/extreme-http-performance-tuning-one-point-two-million/) 展示了性能调优和热点分析的各种工具的使用。
 
-内容收集主要来自 [高性能计算学习路线](https://www.zhihu.com/question/33576416) 和 [华农队长的备赛指南](https://baijiahao.baidu.com/s?id=1623535574079054530&wfr=spider&for=pc)
+内容收集主要来自 [高性能计算学习路线](https://www.zhihu.com/question/33576416) 和 [华农队长的备赛指南](http://xxcc3000.tpddns.cn:808/info/Article_Show.asp?ArticleID=32260&Keyword=)
 
 部分内容如有侵权，请在 [我们的 GitHub repo](https://github.com/heptagonhust/HPC-roadmap) 中开一个 issue, 我们会尽快移除。
 
