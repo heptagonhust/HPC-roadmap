@@ -2,12 +2,19 @@
 
 ## 入门指南
 
+### Basic: 面试前必会
+
+- Linux 基本使用
+- C/C++ 基本语法
+- CSAPP 前两章
+
 ### Easy：一两星期就够了！
 
-- C/C++ 语言
+- CSAPP 3,5章
 - 多线程与锁（std::thread, pthread）
 - SIMD 指令的使用
 - OpenMP 的使用
+- 安装物理机 Linux 任意发行版（推荐使用Arch Linux）并熟练使用
 
 习题：使用多线程（可以使用 openmp，std::thread, pthread 中的任意一种）和 SIMD 优化以下程序
 
@@ -31,10 +38,10 @@ int dot_product(int *a, int *b, int len) {
 
 ### Hard：来点有意思的
 
+- CSAPP 6,9章
 - Intel VTune Profiler 和 Intel Advisor 的使用
 - 火焰图
-- 阿姆达尔定律
-- 存储器层次结构，高速缓存
+- Modern C++
 - 原子操作
 - MPI 编程
 
@@ -58,8 +65,7 @@ void matrix_mul(int *a, int *b, int *c, int len) {
 
 - 异构编程（GPGPU，太湖之光，etc）
 - 现代处理器体系结构
-- 熟练使用 Linux
-- 运维，装机
+- ~~捡垃圾~~、装机、运维
 
 ~~习题：完整参与一次比赛~~
 
